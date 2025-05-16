@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/runner/work/hellen-EP91-Starlet/hellen-EP91-Starlet/EP91Starlet.kicad_sch</source>
-    <date>2025-05-16T08:34:18+0000</date>
+    <date>2025-05-16T09:47:27+0000</date>
     <tool>Eeschema 8.0.9-8.0.9-0~ubuntu24.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -225,164 +225,171 @@
   </libparts>
   <libraries/>
   <nets>
-    <net code="1" name="unconnected-(M1-BOOT0_(PD)-PadN5)">
+    <net code="1" name="GND">
+      <node ref="M1" pin="G" pinfunction="GND" pintype="passive"/>
+      <node ref="M2" pin="G" pinfunction="GND" pintype="passive"/>
+      <node ref="M3" pin="G" pinfunction="GND" pintype="passive"/>
+      <node ref="M4" pin="E2" pinfunction="GND" pintype="passive"/>
+    </net>
+    <net code="2" name="Net-(M1-CAN1H)">
+      <node ref="M1" pin="W12" pinfunction="CAN1H" pintype="passive"/>
+      <node ref="M2" pin="W3" pinfunction="CANL" pintype="passive"/>
+    </net>
+    <net code="3" name="Net-(M1-CAN1L)">
+      <node ref="M1" pin="W13" pinfunction="CAN1L" pintype="passive"/>
+      <node ref="M2" pin="W4" pinfunction="CANH" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(M1-IN_ADC10{slash}EINT0_(VR_CRK))">
+      <node ref="M1" pin="S26" pinfunction="IN_ADC10/EINT0_(VR_CRK)" pintype="passive"/>
+      <node ref="M3" pin="E3" pinfunction="OUT" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(M4-VREF)">
+      <node ref="M1" pin="N22" pinfunction="V33" pintype="passive"/>
+      <node ref="M4" pin="W2" pinfunction="VREF" pintype="passive"/>
+    </net>
+    <net code="6" name="unconnected-(M1-BOOT0_(PD)-PadN5)">
       <node ref="M1" pin="N5" pinfunction="BOOT0_(PD)" pintype="passive"/>
     </net>
-    <net code="2" name="unconnected-(M1-BOOT1_(PD)-PadN10)">
+    <net code="7" name="unconnected-(M1-BOOT1_(PD)-PadN10)">
       <node ref="M1" pin="N10" pinfunction="BOOT1_(PD)" pintype="passive"/>
     </net>
-    <net code="3" name="unconnected-(M1-CAN1H-PadW12)">
-      <node ref="M1" pin="W12" pinfunction="CAN1H" pintype="passive"/>
-    </net>
-    <net code="4" name="unconnected-(M1-CAN1L-PadW13)">
-      <node ref="M1" pin="W13" pinfunction="CAN1L" pintype="passive"/>
-    </net>
-    <net code="5" name="unconnected-(M1-CAN2H-PadW8)">
+    <net code="8" name="unconnected-(M1-CAN2H-PadW8)">
       <node ref="M1" pin="W8" pinfunction="CAN2H" pintype="passive"/>
     </net>
-    <net code="6" name="unconnected-(M1-CAN2L-PadW9)">
+    <net code="9" name="unconnected-(M1-CAN2L-PadW9)">
       <node ref="M1" pin="W9" pinfunction="CAN2L" pintype="passive"/>
     </net>
-    <net code="7" name="unconnected-(M1-GND-PadG)">
-      <node ref="M1" pin="G" pinfunction="GND" pintype="passive"/>
-    </net>
-    <net code="8" name="unconnected-(M1-GNDA-PadE39)">
+    <net code="10" name="unconnected-(M1-GNDA-PadE39)">
       <node ref="M1" pin="E39" pinfunction="GNDA" pintype="passive"/>
     </net>
-    <net code="9" name="unconnected-(M1-GNDA-PadW1)">
+    <net code="11" name="unconnected-(M1-GNDA-PadW1)">
       <node ref="M1" pin="W1" pinfunction="GNDA" pintype="passive"/>
     </net>
-    <net code="10" name="unconnected-(M1-I2C_SCL-PadN14)">
+    <net code="12" name="unconnected-(M1-I2C_SCL-PadN14)">
       <node ref="M1" pin="N14" pinfunction="I2C_SCL" pintype="passive"/>
     </net>
-    <net code="11" name="unconnected-(M1-I2C_SDA-PadN15)">
+    <net code="13" name="unconnected-(M1-I2C_SDA-PadN15)">
       <node ref="M1" pin="N15" pinfunction="I2C_SDA" pintype="passive"/>
     </net>
-    <net code="12" name="unconnected-(M1-IN_ADC0{slash}EINT0{slash}CAN1_WKUP-PadS30)">
+    <net code="14" name="unconnected-(M1-IN_ADC0{slash}EINT0{slash}CAN1_WKUP-PadS30)">
       <node ref="M1" pin="S30" pinfunction="IN_ADC0/EINT0/CAN1_WKUP" pintype="passive"/>
     </net>
-    <net code="13" name="unconnected-(M1-IN_ADC1{slash}EINT1{slash}SENT-PadS31)">
+    <net code="15" name="unconnected-(M1-IN_ADC1{slash}EINT1{slash}SENT-PadS31)">
       <node ref="M1" pin="S31" pinfunction="IN_ADC1/EINT1/SENT" pintype="passive"/>
     </net>
-    <net code="14" name="unconnected-(M1-IN_ADC2{slash}EINT2-PadS32)">
+    <net code="16" name="unconnected-(M1-IN_ADC2{slash}EINT2-PadS32)">
       <node ref="M1" pin="S32" pinfunction="IN_ADC2/EINT2" pintype="passive"/>
     </net>
-    <net code="15" name="unconnected-(M1-IN_ADC3{slash}EINT3-PadS33)">
+    <net code="17" name="unconnected-(M1-IN_ADC3{slash}EINT3-PadS33)">
       <node ref="M1" pin="S33" pinfunction="IN_ADC3/EINT3" pintype="passive"/>
     </net>
-    <net code="16" name="unconnected-(M1-IN_ADC4{slash}EINT4-PadS22)">
+    <net code="18" name="unconnected-(M1-IN_ADC4{slash}EINT4-PadS22)">
       <node ref="M1" pin="S22" pinfunction="IN_ADC4/EINT4" pintype="passive"/>
     </net>
-    <net code="17" name="unconnected-(M1-IN_ADC5{slash}EINT5-PadS23)">
+    <net code="19" name="unconnected-(M1-IN_ADC5{slash}EINT5-PadS23)">
       <node ref="M1" pin="S23" pinfunction="IN_ADC5/EINT5" pintype="passive"/>
     </net>
-    <net code="18" name="unconnected-(M1-IN_ADC6{slash}EINT6-PadS24)">
+    <net code="20" name="unconnected-(M1-IN_ADC6{slash}EINT6-PadS24)">
       <node ref="M1" pin="S24" pinfunction="IN_ADC6/EINT6" pintype="passive"/>
     </net>
-    <net code="19" name="unconnected-(M1-IN_ADC7{slash}EINT7-PadS25)">
+    <net code="21" name="unconnected-(M1-IN_ADC7{slash}EINT7-PadS25)">
       <node ref="M1" pin="S25" pinfunction="IN_ADC7/EINT7" pintype="passive"/>
     </net>
-    <net code="20" name="unconnected-(M1-IN_ADC10{slash}EINT0_(VR_CRK)-PadS26)">
-      <node ref="M1" pin="S26" pinfunction="IN_ADC10/EINT0_(VR_CRK)" pintype="passive"/>
-    </net>
-    <net code="21" name="unconnected-(M1-IN_ADC11{slash}EINT1-PadS27)">
+    <net code="22" name="unconnected-(M1-IN_ADC11{slash}EINT1-PadS27)">
       <node ref="M1" pin="S27" pinfunction="IN_ADC11/EINT1" pintype="passive"/>
     </net>
-    <net code="22" name="unconnected-(M1-IN_ADC14{slash}EINT4-PadS28)">
+    <net code="23" name="unconnected-(M1-IN_ADC14{slash}EINT4-PadS28)">
       <node ref="M1" pin="S28" pinfunction="IN_ADC14/EINT4" pintype="passive"/>
     </net>
-    <net code="23" name="unconnected-(M1-IN_ADC15{slash}EINT5-PadS29)">
+    <net code="24" name="unconnected-(M1-IN_ADC15{slash}EINT5-PadS29)">
       <node ref="M1" pin="S29" pinfunction="IN_ADC15/EINT5" pintype="passive"/>
     </net>
-    <net code="24" name="unconnected-(M1-OUT_LED_BLUE_(PU)-PadN19)">
+    <net code="25" name="unconnected-(M1-OUT_LED_BLUE_(PU)-PadN19)">
       <node ref="M1" pin="N19" pinfunction="OUT_LED_BLUE_(PU)" pintype="passive"/>
     </net>
-    <net code="25" name="unconnected-(M1-OUT_LED_RED_(PU)-PadN16)">
+    <net code="26" name="unconnected-(M1-OUT_LED_RED_(PU)-PadN16)">
       <node ref="M1" pin="N16" pinfunction="OUT_LED_RED_(PU)" pintype="passive"/>
     </net>
-    <net code="26" name="unconnected-(M1-OUT_PWM1-PadE27)">
+    <net code="27" name="unconnected-(M1-OUT_PWM1-PadE27)">
       <node ref="M1" pin="E27" pinfunction="OUT_PWM1" pintype="passive"/>
     </net>
-    <net code="27" name="unconnected-(M1-OUT_PWM2-PadE17)">
+    <net code="28" name="unconnected-(M1-OUT_PWM2-PadE17)">
       <node ref="M1" pin="E17" pinfunction="OUT_PWM2" pintype="passive"/>
     </net>
-    <net code="28" name="unconnected-(M1-OUT_PWM3-PadE16)">
+    <net code="29" name="unconnected-(M1-OUT_PWM3-PadE16)">
       <node ref="M1" pin="E16" pinfunction="OUT_PWM3" pintype="passive"/>
     </net>
-    <net code="29" name="unconnected-(M1-OUT_PWM4-PadE15)">
+    <net code="30" name="unconnected-(M1-OUT_PWM4-PadE15)">
       <node ref="M1" pin="E15" pinfunction="OUT_PWM4" pintype="passive"/>
     </net>
-    <net code="30" name="unconnected-(M1-OUT_PWM5-PadE14)">
+    <net code="31" name="unconnected-(M1-OUT_PWM5-PadE14)">
       <node ref="M1" pin="E14" pinfunction="OUT_PWM5" pintype="passive"/>
     </net>
-    <net code="31" name="unconnected-(M1-OUT_PWM6-PadE26)">
+    <net code="32" name="unconnected-(M1-OUT_PWM6-PadE26)">
       <node ref="M1" pin="E26" pinfunction="OUT_PWM6" pintype="passive"/>
     </net>
-    <net code="32" name="unconnected-(M1-OUT_PWR_EN-PadN29)">
+    <net code="33" name="unconnected-(M1-OUT_PWR_EN-PadN29)">
       <node ref="M1" pin="N29" pinfunction="OUT_PWR_EN" pintype="passive"/>
     </net>
-    <net code="33" name="unconnected-(M1-SPI1_MISO-PadN12)">
+    <net code="34" name="unconnected-(M1-SPI1_MISO-PadN12)">
       <node ref="M1" pin="N12" pinfunction="SPI1_MISO" pintype="passive"/>
     </net>
-    <net code="34" name="unconnected-(M1-SPI1_MOSI-PadN13)">
+    <net code="35" name="unconnected-(M1-SPI1_MOSI-PadN13)">
       <node ref="M1" pin="N13" pinfunction="SPI1_MOSI" pintype="passive"/>
     </net>
-    <net code="35" name="unconnected-(M1-SPI1_SCK-PadN11)">
+    <net code="36" name="unconnected-(M1-SPI1_SCK-PadN11)">
       <node ref="M1" pin="N11" pinfunction="SPI1_SCK" pintype="passive"/>
     </net>
-    <net code="36" name="unconnected-(M1-SPI2_CS-PadE4)">
+    <net code="37" name="unconnected-(M1-SPI2_CS-PadE4)">
       <node ref="M1" pin="E4" pinfunction="SPI2_CS" pintype="passive"/>
     </net>
-    <net code="37" name="unconnected-(M1-SPI2_MISO-PadE2)">
+    <net code="38" name="unconnected-(M1-SPI2_MISO-PadE2)">
       <node ref="M1" pin="E2" pinfunction="SPI2_MISO" pintype="passive"/>
     </net>
-    <net code="38" name="unconnected-(M1-SPI2_MOSI-PadE3)">
+    <net code="39" name="unconnected-(M1-SPI2_MOSI-PadE3)">
       <node ref="M1" pin="E3" pinfunction="SPI2_MOSI" pintype="passive"/>
     </net>
-    <net code="39" name="unconnected-(M1-SPI2_SCK-PadE1)">
+    <net code="40" name="unconnected-(M1-SPI2_SCK-PadE1)">
       <node ref="M1" pin="E1" pinfunction="SPI2_SCK" pintype="passive"/>
     </net>
-    <net code="40" name="unconnected-(M1-SWCLK-PadN8)">
+    <net code="41" name="unconnected-(M1-SWCLK-PadN8)">
       <node ref="M1" pin="N8" pinfunction="SWCLK" pintype="passive"/>
     </net>
-    <net code="41" name="unconnected-(M1-SWDIO-PadN7)">
+    <net code="42" name="unconnected-(M1-SWDIO-PadN7)">
       <node ref="M1" pin="N7" pinfunction="SWDIO" pintype="passive"/>
     </net>
-    <net code="42" name="unconnected-(M1-SWO-PadN6)">
+    <net code="43" name="unconnected-(M1-SWO-PadN6)">
       <node ref="M1" pin="N6" pinfunction="SWO" pintype="passive"/>
     </net>
-    <net code="43" name="unconnected-(M1-UART3_RX-PadN18)">
+    <net code="44" name="unconnected-(M1-UART3_RX-PadN18)">
       <node ref="M1" pin="N18" pinfunction="UART3_RX" pintype="passive"/>
     </net>
-    <net code="44" name="unconnected-(M1-UART3_TX-PadN17)">
+    <net code="45" name="unconnected-(M1-UART3_TX-PadN17)">
       <node ref="M1" pin="N17" pinfunction="UART3_TX" pintype="passive"/>
     </net>
-    <net code="45" name="unconnected-(M1-UART6_RX-PadN24)">
+    <net code="46" name="unconnected-(M1-UART6_RX-PadN24)">
       <node ref="M1" pin="N24" pinfunction="UART6_RX" pintype="passive"/>
     </net>
-    <net code="46" name="unconnected-(M1-UART6_TX-PadN25)">
+    <net code="47" name="unconnected-(M1-UART6_TX-PadN25)">
       <node ref="M1" pin="N25" pinfunction="UART6_TX" pintype="passive"/>
     </net>
-    <net code="47" name="unconnected-(M1-USBID-PadN1)">
+    <net code="48" name="unconnected-(M1-USBID-PadN1)">
       <node ref="M1" pin="N1" pinfunction="USBID" pintype="passive"/>
     </net>
-    <net code="48" name="unconnected-(M1-USBM-PadN2)">
+    <net code="49" name="unconnected-(M1-USBM-PadN2)">
       <node ref="M1" pin="N2" pinfunction="USBM" pintype="passive"/>
     </net>
-    <net code="49" name="unconnected-(M1-USBP-PadN3)">
+    <net code="50" name="unconnected-(M1-USBP-PadN3)">
       <node ref="M1" pin="N3" pinfunction="USBP" pintype="passive"/>
     </net>
-    <net code="50" name="unconnected-(M1-V5A_SWITCHABLE-PadE38)">
+    <net code="51" name="unconnected-(M1-V5A_SWITCHABLE-PadE38)">
       <node ref="M1" pin="E38" pinfunction="V5A_SWITCHABLE" pintype="passive"/>
     </net>
-    <net code="51" name="unconnected-(M1-V5A_SWITCHABLE-PadN30)">
+    <net code="52" name="unconnected-(M1-V5A_SWITCHABLE-PadN30)">
       <node ref="M1" pin="N30" pinfunction="V5A_SWITCHABLE" pintype="passive"/>
     </net>
-    <net code="52" name="unconnected-(M1-V5A_SWITCHABLE-PadW2)">
+    <net code="53" name="unconnected-(M1-V5A_SWITCHABLE-PadW2)">
       <node ref="M1" pin="W2" pinfunction="V5A_SWITCHABLE" pintype="passive"/>
-    </net>
-    <net code="53" name="unconnected-(M1-V33-PadN22)">
-      <node ref="M1" pin="N22" pinfunction="V33" pintype="passive"/>
     </net>
     <net code="54" name="unconnected-(M1-V33-PadN32)">
       <node ref="M1" pin="N32" pinfunction="V33" pintype="passive"/>
@@ -408,107 +415,86 @@
     <net code="61" name="unconnected-(M1-nReset-PadN9)">
       <node ref="M1" pin="N9" pinfunction="nReset" pintype="passive"/>
     </net>
-    <net code="62" name="unconnected-(M2-CANH-PadW4)">
-      <node ref="M2" pin="W4" pinfunction="CANH" pintype="passive"/>
-    </net>
-    <net code="63" name="unconnected-(M2-CANL-PadW3)">
-      <node ref="M2" pin="W3" pinfunction="CANL" pintype="passive"/>
-    </net>
-    <net code="64" name="unconnected-(M2-CAN_VIO-PadW2)">
+    <net code="62" name="unconnected-(M2-CAN_VIO-PadW2)">
       <node ref="M2" pin="W2" pinfunction="CAN_VIO" pintype="passive"/>
     </net>
-    <net code="65" name="unconnected-(M2-GND-PadG)">
-      <node ref="M2" pin="G" pinfunction="GND" pintype="passive"/>
-    </net>
-    <net code="66" name="unconnected-(M2-LSU_H+-PadE5)">
+    <net code="63" name="unconnected-(M2-LSU_H+-PadE5)">
       <node ref="M2" pin="E5" pinfunction="LSU_H+" pintype="passive"/>
     </net>
-    <net code="67" name="unconnected-(M2-LSU_H--PadE6)">
+    <net code="64" name="unconnected-(M2-LSU_H--PadE6)">
       <node ref="M2" pin="E6" pinfunction="LSU_H-" pintype="passive"/>
     </net>
-    <net code="68" name="unconnected-(M2-LSU_Ip-PadE3)">
+    <net code="65" name="unconnected-(M2-LSU_Ip-PadE3)">
       <node ref="M2" pin="E3" pinfunction="LSU_Ip" pintype="passive"/>
     </net>
-    <net code="69" name="unconnected-(M2-LSU_Rtrim-PadE4)">
+    <net code="66" name="unconnected-(M2-LSU_Rtrim-PadE4)">
       <node ref="M2" pin="E4" pinfunction="LSU_Rtrim" pintype="passive"/>
     </net>
-    <net code="70" name="unconnected-(M2-LSU_Un-PadE1)">
+    <net code="67" name="unconnected-(M2-LSU_Un-PadE1)">
       <node ref="M2" pin="E1" pinfunction="LSU_Un" pintype="passive"/>
     </net>
-    <net code="71" name="unconnected-(M2-LSU_Vm-PadE2)">
+    <net code="68" name="unconnected-(M2-LSU_Vm-PadE2)">
       <node ref="M2" pin="E2" pinfunction="LSU_Vm" pintype="passive"/>
     </net>
-    <net code="72" name="unconnected-(M2-PULL_DOWN1-PadJ_GND1)">
+    <net code="69" name="unconnected-(M2-PULL_DOWN1-PadJ_GND1)">
       <node ref="M2" pin="J_GND1" pinfunction="PULL_DOWN1" pintype="passive"/>
     </net>
-    <net code="73" name="unconnected-(M2-PULL_DOWN2-PadJ_GND2)">
+    <net code="70" name="unconnected-(M2-PULL_DOWN2-PadJ_GND2)">
       <node ref="M2" pin="J_GND2" pinfunction="PULL_DOWN2" pintype="passive"/>
     </net>
-    <net code="74" name="unconnected-(M2-PULL_UP1-PadJ_VCC1)">
+    <net code="71" name="unconnected-(M2-PULL_UP1-PadJ_VCC1)">
       <node ref="M2" pin="J_VCC1" pinfunction="PULL_UP1" pintype="passive"/>
     </net>
-    <net code="75" name="unconnected-(M2-PULL_UP2-PadJ_VCC2)">
+    <net code="72" name="unconnected-(M2-PULL_UP2-PadJ_VCC2)">
       <node ref="M2" pin="J_VCC2" pinfunction="PULL_UP2" pintype="passive"/>
     </net>
-    <net code="76" name="unconnected-(M2-SEL1-PadJ1)">
+    <net code="73" name="unconnected-(M2-SEL1-PadJ1)">
       <node ref="M2" pin="J1" pinfunction="SEL1" pintype="passive"/>
     </net>
-    <net code="77" name="unconnected-(M2-SEL2-PadJ2)">
+    <net code="74" name="unconnected-(M2-SEL2-PadJ2)">
       <node ref="M2" pin="J2" pinfunction="SEL2" pintype="passive"/>
     </net>
-    <net code="78" name="unconnected-(M2-SWCLK-PadW7)">
+    <net code="75" name="unconnected-(M2-SWCLK-PadW7)">
       <node ref="M2" pin="W7" pinfunction="SWCLK" pintype="passive"/>
     </net>
-    <net code="79" name="unconnected-(M2-SWDIO-PadW6)">
+    <net code="76" name="unconnected-(M2-SWDIO-PadW6)">
       <node ref="M2" pin="W6" pinfunction="SWDIO" pintype="passive"/>
     </net>
-    <net code="80" name="unconnected-(M2-V5_IN-PadW1)">
+    <net code="77" name="unconnected-(M2-V5_IN-PadW1)">
       <node ref="M2" pin="W1" pinfunction="V5_IN" pintype="passive"/>
     </net>
-    <net code="81" name="unconnected-(M2-V33_OUT-PadW8)">
+    <net code="78" name="unconnected-(M2-V33_OUT-PadW8)">
       <node ref="M2" pin="W8" pinfunction="V33_OUT" pintype="passive"/>
     </net>
-    <net code="82" name="unconnected-(M2-VDDA-PadW9)">
+    <net code="79" name="unconnected-(M2-VDDA-PadW9)">
       <node ref="M2" pin="W9" pinfunction="VDDA" pintype="passive"/>
     </net>
-    <net code="83" name="unconnected-(M2-nReset-PadW5)">
+    <net code="80" name="unconnected-(M2-nReset-PadW5)">
       <node ref="M2" pin="W5" pinfunction="nReset" pintype="passive"/>
     </net>
-    <net code="84" name="unconnected-(M3-GND-PadG)">
-      <node ref="M3" pin="G" pinfunction="GND" pintype="passive"/>
-    </net>
-    <net code="85" name="unconnected-(M3-HALL_EN-PadE1)">
+    <net code="81" name="unconnected-(M3-HALL_EN-PadE1)">
       <node ref="M3" pin="E1" pinfunction="HALL_EN" pintype="passive"/>
     </net>
-    <net code="86" name="unconnected-(M3-NC-PadE2)">
+    <net code="82" name="unconnected-(M3-NC-PadE2)">
       <node ref="M3" pin="E2" pinfunction="NC" pintype="passive"/>
     </net>
-    <net code="87" name="unconnected-(M3-OUT-PadE3)">
-      <node ref="M3" pin="E3" pinfunction="OUT" pintype="passive"/>
-    </net>
-    <net code="88" name="unconnected-(M3-V5_IN-PadE4)">
+    <net code="83" name="unconnected-(M3-V5_IN-PadE4)">
       <node ref="M3" pin="E4" pinfunction="V5_IN" pintype="passive"/>
     </net>
-    <net code="89" name="unconnected-(M3-VR+-PadW2)">
+    <net code="84" name="unconnected-(M3-VR+-PadW2)">
       <node ref="M3" pin="W2" pinfunction="VR+" pintype="passive"/>
     </net>
-    <net code="90" name="unconnected-(M3-VR-{slash}HALL-PadW1)">
+    <net code="85" name="unconnected-(M3-VR-{slash}HALL-PadW1)">
       <node ref="M3" pin="W1" pinfunction="VR-/HALL" pintype="passive"/>
     </net>
-    <net code="91" name="unconnected-(M4-GND-PadE2)">
-      <node ref="M4" pin="E2" pinfunction="GND" pintype="passive"/>
-    </net>
-    <net code="92" name="unconnected-(M4-IN_KNOCK-PadW1)">
+    <net code="86" name="unconnected-(M4-IN_KNOCK-PadW1)">
       <node ref="M4" pin="W1" pinfunction="IN_KNOCK" pintype="passive"/>
     </net>
-    <net code="93" name="unconnected-(M4-OUT_KNOCK-PadE3)">
+    <net code="87" name="unconnected-(M4-OUT_KNOCK-PadE3)">
       <node ref="M4" pin="E3" pinfunction="OUT_KNOCK" pintype="passive"/>
     </net>
-    <net code="94" name="unconnected-(M4-V5A-PadE1)">
+    <net code="88" name="unconnected-(M4-V5A-PadE1)">
       <node ref="M4" pin="E1" pinfunction="V5A" pintype="passive"/>
-    </net>
-    <net code="95" name="unconnected-(M4-VREF-PadW2)">
-      <node ref="M4" pin="W2" pinfunction="VREF" pintype="passive"/>
     </net>
   </nets>
 </export>
