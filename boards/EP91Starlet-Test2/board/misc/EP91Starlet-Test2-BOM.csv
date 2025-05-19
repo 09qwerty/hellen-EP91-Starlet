@@ -1,4 +1,5 @@
 Comment,Designator,Footprint,LCSC Part #
+"~","U1","4EFE ECU Connector",""
 "TJA1051T/3/1J","U100, U103, U605","SO-8_3.9x4.9mm_P1.27mm","C38695"
 "STM32F405RGT6","U105","LQFP64","C15742"
 "SRV05-4-P-T7","D102, D200, D201, D202","SOT23-6","C85364"
