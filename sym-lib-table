@@ -1,4 +1,5 @@
 (sym_lib_table
   (version 7)
   (lib (name "4EFE ECU Connector")(type "KiCad")(uri "${KIPRJMOD}/EP91 libraries.pretty/4EFE ECU Connector.kicad_sym")(options "")(descr ""))
+  (lib (name "EP91ECU")(type "KiCad")(uri "${KIPRJMOD}/EP91 libraries.pretty/EP91ECU.kicad_sym")(options "")(descr ""))
 )
