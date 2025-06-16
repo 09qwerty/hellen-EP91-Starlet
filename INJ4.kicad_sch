@@ -812,7 +812,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0a14090e-d8a1-48e4-9e47-c592359bc195")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR5"
 			(at 165.1 101.6 0)
 			(effects
 				(font
@@ -862,7 +862,7 @@
 		(instances
 			(project "EP91Starlet"
 				(path "/10fbc709-889c-4565-8161-129ca9f0b73f/be1c43af-891a-42a9-806b-74d195d7f62c"
-					(reference "#PWR?")
+					(reference "#PWR5")
 					(unit 1)
 				)
 			)
@@ -883,7 +883,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "135bc0ce-1afa-47d0-bc74-013f5bb553f1")
-		(property "Reference" "R1"
+		(property "Reference" "R3"
 			(at 162.56 90.17 0)
 			(effects
 				(font
@@ -899,7 +899,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hellen-one-common:R0603"
+		(property "Footprint" "footprints:R0603"
 			(at 168.91 91.44 0)
 			(effects
 				(font
@@ -944,7 +944,7 @@
 		(instances
 			(project "EP91Starlet"
 				(path "/10fbc709-889c-4565-8161-129ca9f0b73f/be1c43af-891a-42a9-806b-74d195d7f62c"
-					(reference "R1")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -966,7 +966,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "195cc6c7-5745-427c-adab-c1ba515a2a82")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 138.43 102.87 0)
 			(effects
 				(font
@@ -1045,7 +1045,7 @@
 		(instances
 			(project "EP91Starlet"
 				(path "/10fbc709-889c-4565-8161-129ca9f0b73f/be1c43af-891a-42a9-806b-74d195d7f62c"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -1066,7 +1066,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c332a26-ada9-4022-8470-cc753b88a0f9")
-		(property "Reference" "R2"
+		(property "Reference" "R1"
 			(at 156.21 90.17 0)
 			(effects
 				(font
@@ -1082,7 +1082,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hellen-one-common:R0603"
+		(property "Footprint" "footprints:R0603"
 			(at 162.56 91.44 0)
 			(effects
 				(font
@@ -1127,7 +1127,7 @@
 		(instances
 			(project "EP91Starlet"
 				(path "/10fbc709-889c-4565-8161-129ca9f0b73f/be1c43af-891a-42a9-806b-74d195d7f62c"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -1149,7 +1149,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4928f694-5efc-4861-ab80-00dc0329cf29")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR4"
 			(at 158.75 134.62 0)
 			(effects
 				(font
@@ -1199,7 +1199,7 @@
 		(instances
 			(project "EP91Starlet"
 				(path "/10fbc709-889c-4565-8161-129ca9f0b73f/be1c43af-891a-42a9-806b-74d195d7f62c"
-					(reference "#PWR?")
+					(reference "#PWR4")
 					(unit 1)
 				)
 			)
@@ -1221,7 +1221,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4cb8bca5-53fd-45d3-828d-9377a6a38464")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR3"
 			(at 158.75 101.6 0)
 			(effects
 				(font
@@ -1271,7 +1271,7 @@
 		(instances
 			(project "EP91Starlet"
 				(path "/10fbc709-889c-4565-8161-129ca9f0b73f/be1c43af-891a-42a9-806b-74d195d7f62c"
-					(reference "#PWR?")
+					(reference "#PWR3")
 					(unit 1)
 				)
 			)
@@ -1292,7 +1292,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "770a4649-f021-4c5a-9225-22a48866c3c8")
-		(property "Reference" "R3"
+		(property "Reference" "R4"
 			(at 162.56 123.19 0)
 			(effects
 				(font
@@ -1308,7 +1308,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hellen-one-common:R0603"
+		(property "Footprint" "footprints:R0603"
 			(at 168.91 124.46 0)
 			(effects
 				(font
@@ -1353,7 +1353,7 @@
 		(instances
 			(project "EP91Starlet"
 				(path "/10fbc709-889c-4565-8161-129ca9f0b73f/be1c43af-891a-42a9-806b-74d195d7f62c"
-					(reference "R3")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -1374,7 +1374,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "84bad5fa-c71e-4f8c-b42c-474d518a15dc")
-		(property "Reference" "R4"
+		(property "Reference" "R2"
 			(at 156.21 123.19 0)
 			(effects
 				(font
@@ -1390,7 +1390,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hellen-one-common:R0603"
+		(property "Footprint" "footprints:R0603"
 			(at 162.56 124.46 0)
 			(effects
 				(font
@@ -1435,7 +1435,7 @@
 		(instances
 			(project "EP91Starlet"
 				(path "/10fbc709-889c-4565-8161-129ca9f0b73f/be1c43af-891a-42a9-806b-74d195d7f62c"
-					(reference "R4")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -1457,7 +1457,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c17e9ddb-dcdc-4e3a-b730-630110be7298")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR1"
 			(at 121.92 101.6 0)
 			(effects
 				(font
@@ -1507,7 +1507,7 @@
 		(instances
 			(project "EP91Starlet"
 				(path "/10fbc709-889c-4565-8161-129ca9f0b73f/be1c43af-891a-42a9-806b-74d195d7f62c"
-					(reference "#PWR?")
+					(reference "#PWR1")
 					(unit 1)
 				)
 			)
@@ -1529,7 +1529,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d3770d68-b71e-4db0-bbd6-63ab28728ff8")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR6"
 			(at 165.1 134.62 0)
 			(effects
 				(font
@@ -1579,7 +1579,7 @@
 		(instances
 			(project "EP91Starlet"
 				(path "/10fbc709-889c-4565-8161-129ca9f0b73f/be1c43af-891a-42a9-806b-74d195d7f62c"
-					(reference "#PWR?")
+					(reference "#PWR6")
 					(unit 1)
 				)
 			)
@@ -1601,7 +1601,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e0889f1a-3d5e-4977-8c04-9a95f7aa95a9")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 138.43 69.85 0)
 			(effects
 				(font
@@ -1680,7 +1680,7 @@
 		(instances
 			(project "EP91Starlet"
 				(path "/10fbc709-889c-4565-8161-129ca9f0b73f/be1c43af-891a-42a9-806b-74d195d7f62c"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -1702,7 +1702,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ffbb7427-2793-4360-bd43-26e6b6b52c96")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR2"
 			(at 121.92 134.62 0)
 			(effects
 				(font
@@ -1752,7 +1752,7 @@
 		(instances
 			(project "EP91Starlet"
 				(path "/10fbc709-889c-4565-8161-129ca9f0b73f/be1c43af-891a-42a9-806b-74d195d7f62c"
-					(reference "#PWR?")
+					(reference "#PWR2")
 					(unit 1)
 				)
 			)
